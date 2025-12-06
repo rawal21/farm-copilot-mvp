@@ -32,7 +32,7 @@ export default function HomePage() {
               />
             </div>
 
-            <h1 className="text-2xl font-bold text-primary">Farm Copilot</h1>
+            <h1 className="text-2xl font-bold text-primary">KrishiCopilot</h1>
           </div>
 
           <p className="text-sm text-muted-foreground">MVP Demo</p>
