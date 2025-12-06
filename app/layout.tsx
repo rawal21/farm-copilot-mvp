@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Farm Copilot - AI Farming Advisor",
+  title: "KrishiCopilot - AI Farming Advisor",
   description: "Smart, actionable farming advice via WhatsApp for Indian farmers",
   generator: "v0.app",
   icons: {

@@ -37,7 +37,7 @@ export default function FarmProfileSetup({ onComplete }: FarmProfileSetupProps) 
   return (
     <div className="space-y-6">
       <div className="space-y-2 animate-fade-in">
-        <h2 className="text-3xl font-bold text-primary">Welcome to Farm Copilot</h2>
+        <h2 className="text-3xl font-bold text-primary">Welcome to KrishiCopilot</h2>
         <p className="text-muted-foreground">Let's set up your farm profile to get personalized weekly guidance</p>
       </div>
 
