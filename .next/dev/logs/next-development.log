@@ -1,207 +1,439 @@
-[00:00:01.658] Server  LOG     
-[00:00:01.658] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:01.658] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:01.658] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:01.658] Server  LOG     
-[00:00:01.658] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:01.658] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:01.658] Server  LOG     
-[00:00:01.720] Server  LOG      ✓ Ready in 1511ms
-[00:00:18.013] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:18.013] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:18.014] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765044886546}
-[00:11:09.366] Server  LOG      ✓ Compiled in 114ms
-[00:11:10.325] Server  LOG      ✓ Compiled in 44ms
-[00:11:21.140] Server  LOG      ✓ Compiled in 32ms
-[00:11:21.420] Browser ERROR   ./app/page.tsx:9:26
+[00:00:00.804] Server  LOG      ✓ Ready in 559ms
+[00:00:33.154] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:33.154] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:33.154] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766057393460}
+[00:17:17.125] Browser ERROR   Profile creation failed: {"error":"TypeError: Failed to fetch","status":"FETCH_ERROR"}
+[00:17:37.750] Browser LOG     debbuging the data in farmer profile {"__v":0,"_id":"6943e9b2ae7c00c658985227","budget":10000,"crops":["Sugarcane","Cotton"],"farmSize":5,"irrigation":"Borewell","location":{"lat":22.285268885872622,"lon":73.36347252301412},"name":"Dikshit Kumar ","phone":"+91 8426014388"}
+[00:17:38.280] Browser LOG     ⚠️ Using fallback prop data
+[00:17:38.280] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:17:38.280] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943e9b2ae7c00c658985227 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943e9b2ae7c00c658985227","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766058418586}
+[00:17:41.103] Browser LOG     ✅ API Response received: {"farmerName":"Dikshit Kumar ","fullResponse":{"data":{"farmer":"Dikshit Kumar ","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain adequate soil moisture through irrigation, ensure proper fertilization and pest management to optimize growth","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Monitor soil moisture levels closely and irrigate as necessary, consider applying a moisture-retentive mulch to mitigate dry conditions","score":70,"status":"Moderate"}],"location":{"lat":22.285268885872622,"lon":73.36347252301412},"reccomandCrops":[{"crop":"Chili","estimatedROI":"200%","growingPeriod":"4-6 months","initialInvestment":"3000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Tomato","estimatedROI":"180%","growingPeriod":"3-5 months","initialInvestment":"2500 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Okra","estimatedROI":"150%","growingPeriod":"4-6 months","initialInvestment":"2000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Cucumber","estimatedROI":"220%","growingPeriod":"3-5 months","initialInvestment":"3500 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":95},{"crop":"Eggplant","estimatedROI":"160%","growingPeriod":"4-6 months","initialInvestment":"2800 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":32,"temperature":29.96,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[00:18:23.683] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market color: rgb(120, 120, 120) color: inherit {"dp":"/market","o":"http://localhost:3000/market","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766058463990}
+[00:36:11.539] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:11.539] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market","route":"/market"}
+[00:36:11.539] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market color: rgb(120, 120, 120) color: inherit {"dp":"/market","o":"http://localhost:3000/market","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059531840}
+[00:37:33.469] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:33.469] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market","route":"/market"}
+[00:37:33.469] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market color: rgb(120, 120, 120) color: inherit {"dp":"/market","o":"http://localhost:3000/market","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059613779}
+[00:40:49.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:49.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market","route":"/market"}
+[00:40:49.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market color: rgb(120, 120, 120) color: inherit {"dp":"/market","o":"http://localhost:3000/market","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059810185}
+[00:40:56.126] Browser LOG     ⚠️ Using fallback prop data
+[00:40:56.126] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:40:56.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943e9b2ae7c00c658985227 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943e9b2ae7c00c658985227","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059816434}
+[00:40:58.942] Browser LOG     ✅ API Response received: {"farmerName":"Dikshit Kumar ","fullResponse":{"data":{"farmer":"Dikshit Kumar ","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain adequate moisture levels, ensure proper irrigation scheduling to prevent water stress, and apply balanced fertilizers to promote healthy growth","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Monitor soil moisture levels closely, consider supplemental irrigation to mitigate potential drought stress, and apply pest management strategies to prevent infestations","score":70,"status":"Moderate"}],"location":{"lat":22.285268885872622,"lon":73.36347252301412},"reccomandCrops":[{"crop":"Tomato","estimatedROI":"200%","growingPeriod":"3-4 months","initialInvestment":"3000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Chili Pepper","estimatedROI":"180%","growingPeriod":"4-6 months","initialInvestment":"2500 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Cucumber","estimatedROI":"150%","growingPeriod":"3-4 months","initialInvestment":"2000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Carrot","estimatedROI":"120%","growingPeriod":"4-5 months","initialInvestment":"2200 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":80},{"crop":"Okra","estimatedROI":"220%","growingPeriod":"4-6 months","initialInvestment":"2800 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":95}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.96,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[00:41:01.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059821592}
+[00:41:05.943] Browser LOG     debbuging the data in farmer profile {"__v":0,"_id":"6943ef32fe014b1a6fb464fc","budget":50000,"crops":["Sugarcane","Cotton"],"farmSize":5,"irrigation":"Borewell","location":{"lat":22.285357153507324,"lon":73.36342938925034},"name":"Ramesh","phone":"+91 9876543210"}
+[00:41:05.943] Browser LOG     ⚠️ Using fallback prop data
+[00:41:05.943] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:41:05.943] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766059826252}
+[00:41:08.559] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain consistent soil moisture levels and ensure proper fertilization to support healthy growth","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Implement irrigation scheduling to mitigate water stress and consider applying organic matter to improve soil warmth and structure","score":70,"status":"Moderate"}],"location":{"lat":22.285357153507324,"lon":73.36342938925034},"reccomandCrops":[{"crop":"Tomato","estimatedROI":"200%","growingPeriod":"3-4 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Chili Pepper","estimatedROI":"180%","growingPeriod":"3-4 months","initialInvestment":"7000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Cucumber","estimatedROI":"120%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Okra","estimatedROI":"220%","growingPeriod":"3-4 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":95},{"crop":"Bitter Gourd","estimatedROI":"150%","growingPeriod":"3-4 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.96,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[00:50:22.262] Server  LOG      ✓ Compiled in 45ms
+[00:50:23.867] Server  LOG      ✓ Compiled in 19ms
+[00:50:27.558] Server  LOG      ✓ Compiled in 47ms
+[00:50:28.056] Browser ERROR   ./app/dashboard/[id]/page.tsx:425:43
 Parsing ecmascript source code failed
-   7 | import WeeklyGuidanceFeed from "@/components/weekly-guidance-feed"
-   8 | import PestDetection from "@/components/pest-detection"
->  9 | import MarketAdvice from "@/components/market-advice
-     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  10 |
-  11 | export default function HomePage() {
-  12 |   const [currentStep, setCurrentStep] = useState<"setup" | "plan" | "guidance" | "pest" | "market">("setup")
+  423 |
+  424 |           <button
+> 425 |             onClick={() => router.push(`${}`)}
+      |                                           ^
+  426 |             className="px-5 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 flex items-center gap-2 transition-colors"
+  427 |           >
+  428 |             Continue
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/[id]/page.tsx [Client Component Browser]
+    ./app/dashboard/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/[id]/page.tsx [Client Component SSR]
+    ./app/dashboard/[id]/page.tsx [Server Component]
+[00:50:37.004] Server  LOG      ✓ Compiled in 20ms
+[00:50:38.054] Browser ERROR   ./app/dashboard/[id]/page.tsx:425:51
+Parsing ecmascript source code failed
+  423 |
+  424 |           <button
+> 425 |             onClick={() => router.push(`/market/${}`)}
+      |                                                   ^
+  426 |             className="px-5 py-2 rounded-lg bg-green-600 text-white hover:bg-green-700 flex items-center gap-2 transition-colors"
+  427 |           >
+  428 |             Continue
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/dashboard/[id]/page.tsx [Client Component Browser]
+    ./app/dashboard/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/dashboard/[id]/page.tsx [Client Component SSR]
+    ./app/dashboard/[id]/page.tsx [Server Component]
+[00:50:42.659] Server  LOG      ✓ Compiled in 22ms
+[00:51:53.577] Server  LOG      ✓ Compiled in 18ms
+[00:51:54.057] Browser LOG     ⚠️ Using fallback prop data
+[00:51:54.058] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:51:57.626] Server  LOG      ✓ Compiled in 17ms
+[00:51:58.056] Browser ERROR   ./app/stores/service/farmerApi.ts:27:20
+Parsing ecmascript source code failed
+  25 |
+  26 |      getMarketAdvice: builder.query<any, void>({
+> 27 |       query: () => "/market/market-advice/,
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  28 |     }),
+  29 |   }),
+  30 | })
 
 Unterminated string constant
 
 Import traces:
-  Client Component Browser:
+  #1 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./components/farm-profile-setup.tsx [Client Component Browser]
     ./app/page.tsx [Client Component Browser]
     ./app/page.tsx [Server Component]
 
-  Client Component SSR:
+  #2 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./components/farm-profile-setup.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
-[00:11:22.421] Browser ERROR   ./app/page.tsx:9:26
-Parsing ecmascript source code failed
-   7 | import WeeklyGuidanceFeed from "@/components/weekly-guidance-feed"
-   8 | import PestDetection from "@/components/pest-detection"
->  9 | import MarketAdvice from "@/components/market-advic
-     |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  10 |
-  11 | export default function HomePage() {
-  12 |   const [currentStep, setCurrentStep] = useState<"setup" | "plan" | "guidance" | "pest" | "market">("setup")
 
-Unterminated string constant
+  #3 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./app/stores/store.ts [Client Component Browser]
+    ./app/provider.tsx [Client Component Browser]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./app/stores/store.ts [Client Component SSR]
+    ./app/provider.tsx [Client Component SSR]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:52:00.523] Server  LOG      ✓ Compiled in 13ms
+[00:52:01.054] Browser ERROR   ./app/stores/service/farmerApi.ts:27:20
+Parsing ecmascript source code failed
+  25 |
+  26 |      getMarketAdvice: builder.query<any, void>({
+> 27 |       query: () => /market/market-advice/,
+     |                    ^^^^^^^^^^^^^^
+  28 |     }),
+  29 |   }),
+  30 | })
+
+Unknown regular expression flags.
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./components/farm-profile-setup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./components/farm-profile-setup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./app/stores/store.ts [Client Component Browser]
+    ./app/provider.tsx [Client Component Browser]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./app/stores/store.ts [Client Component SSR]
+    ./app/provider.tsx [Client Component SSR]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:52:03.179] Server  LOG      ✓ Compiled in 14ms
+[00:52:04.057] Browser ERROR   ./app/stores/service/farmerApi.ts:27:20
+Parsing ecmascript source code failed
+  25 |
+  26 |      getMarketAdvice: builder.query<any, void>({
+> 27 |       query: () => `/market/market-advice/,
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |     }),
+     | ^^^^^^^
+> 29 |   }),
+     | ^^^^^^^
+> 30 | })
+     | ^^^^^^^
+> 31 | 
+     | ^^^^^^^
+> 32 | export const {
+     | ^^^^^^^
+> 33 |   useCreateFarmerProfileMutation,
+     | ^^^^^^^
+> 34 |   useGetFarmerByIdQuery, // ✅ hook to use in dashboard
+     | ^^^^^^^
+> 35 |   useGetMarketAdviceQuery
+     | ^^^^^^^
+> 36 | } = farmerApi
+     | ^^^^^^^
+> 37 | 
+     | ^
+
+Unterminated template
+
+Import traces:
+  #1 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./components/farm-profile-setup.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  #2 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./components/farm-profile-setup.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+  #3 [Client Component Browser]:
+    ./app/stores/service/farmerApi.ts [Client Component Browser]
+    ./app/stores/store.ts [Client Component Browser]
+    ./app/provider.tsx [Client Component Browser]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./app/stores/service/farmerApi.ts [Client Component SSR]
+    ./app/stores/store.ts [Client Component SSR]
+    ./app/provider.tsx [Client Component SSR]
+    ./app/provider.tsx [Server Component]
+    ./app/layout.tsx [Server Component]
+[00:52:06.054] Browser LOG     ⚠️ Using fallback prop data
+[00:52:06.054] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:52:10.747] Server  LOG      ✓ Compiled in 16ms
+[00:52:11.057] Browser LOG     ⚠️ Using fallback prop data
+[00:52:11.057] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[00:53:32.753] Server  LOG      ✓ Compiled in 22ms
+[00:53:33.054] Browser LOG     ⚠️ Using fallback prop data
+[00:53:33.054] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:10:40.927] Server  LOG     ⚠️ Using fallback prop data
+[01:10:42.127] Browser LOG     ⚠️ Using fallback prop data
+[01:10:42.127] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:10:42.127] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:42.127] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/6943ef32fe014b1a6fb464fc","route":"/dashboard/[id]"}
+[01:10:42.127] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061602453}
+[01:10:45.775] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain soil moisture levels between 0.15-0.25 and apply balanced fertilizers to promote healthy growth","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Increase soil moisture levels to 0.15-0.20 and apply potassium-rich fertilizers to enhance fiber quality and yield","score":70,"status":"Moderate"}],"location":{"lat":22.285357153507324,"lon":73.36342938925034},"reccomandCrops":[{"crop":"Tomato","estimatedROI":"200%","growingPeriod":"3-4 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Chili Pepper","estimatedROI":"180%","growingPeriod":"4-5 months","initialInvestment":"7000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Cucumber","estimatedROI":"150%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Okra","estimatedROI":"220%","growingPeriod":"4-5 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":95},{"crop":"Carrot","estimatedROI":"120%","growingPeriod":"3-4 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":80}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.96,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:10:51.558] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061611840}
+[01:12:04.976] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:12:04.995] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:12:05.008] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061685205}
+[01:13:07.872] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:13:07.872] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:13:07.872] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061748136}
+[01:13:08.458] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:14:12.851] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:14:12.954] Server  LOG      ✓ Compiled in 32ms
+[01:14:15.091] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:14:15.091] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:14:15.091] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061815114}
+[01:14:20.291] Server  LOG      ✓ Compiled in 19ms
+[01:14:27.409] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:14:27.409] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:14:27.409] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061827634}
+[01:17:18.718] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:18.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:17:18.718] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766061998936}
+[01:20:01.910] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:01.910] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943ef32fe014b1a6fb464fc","route":"/market/[id]"}
+[01:20:01.910] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062162189}
+[01:20:11.938] Browser LOG     ⚠️ Using fallback prop data
+[01:20:11.938] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:20:11.938] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062172221}
+[01:20:13.230] Server  LOG     ⚠️ Using fallback prop data
+[01:20:14.431] Browser LOG     ⚠️ Using fallback prop data
+[01:20:14.431] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:20:14.431] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:14.431] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/6943ef32fe014b1a6fb464fc","route":"/dashboard/[id]"}
+[01:20:14.431] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943ef32fe014b1a6fb464fc","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062174685}
+[01:20:15.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062175514}
+[01:20:17.516] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:17.516] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:20:17.517] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062177766}
+[01:20:20.008] Browser LOG     debbuging the data in farmer profile {"__v":0,"_id":"6943f86474c614e8d59e5165","budget":50000,"crops":["Sugarcane","Cotton"],"farmSize":5,"irrigation":"Borewell","location":{"lat":22.285769705327453,"lon":73.36333974432188},"name":"Ramesh","phone":"+91 9876543210"}
+[01:20:20.008] Browser LOG     ⚠️ Using fallback prop data
+[01:20:20.008] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:20:20.008] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062180288}
+[01:20:22.157] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain soil moisture levels between 0.15-0.25 and ensure adequate fertilization for optimal growth","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Increase soil moisture levels to 0.20-0.30 and consider irrigation to mitigate potential yield loss due to low humidity","score":70,"status":"Moderate"}],"location":{"lat":22.285769705327453,"lon":73.36333974432188},"reccomandCrops":[{"crop":"Chili Peppers","estimatedROI":"120%","growingPeriod":"3-4 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Okra","estimatedROI":"130%","growingPeriod":"3-4 months","initialInvestment":"7000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Cucumbers","estimatedROI":"100%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Spinach","estimatedROI":"90%","growingPeriod":"2-3 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":80},{"crop":"Radish","estimatedROI":"80%","growingPeriod":"1-2 months","initialInvestment":"4000 INR","profitPotential":"Low","reasons":"[Array]","suitabilityScore":75}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.96,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:20:26.763] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062187048}
+[01:22:35.285] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:35.285] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:22:35.285] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062315482}
+[01:24:44.554] Browser LOG     ⚠️ Using fallback prop data
+[01:24:44.554] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:24:44.554] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062444837}
+[01:24:46.900] Server  LOG     ⚠️ Using fallback prop data
+[01:24:48.018] Browser LOG     ⚠️ Using fallback prop data
+[01:24:48.018] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:24:48.018] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:24:48.018] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/6943f86474c614e8d59e5165","route":"/dashboard/[id]"}
+[01:24:48.018] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062448404}
+[01:24:49.941] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain consistent soil moisture levels and ensure proper fertilization for optimal growth, consider applying a balanced fertilizer with a ratio of 10-10-10 NPK","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Increase soil moisture levels through irrigation and consider applying a cotton-specific fertilizer with a ratio of 20-10-10 NPK to promote healthy growth and mitigate heat stress","score":60,"status":"Moderate"}],"location":{"lat":22.285769705327453,"lon":73.36333974432188},"reccomandCrops":[{"crop":"Chili","estimatedROI":"120%","growingPeriod":"4-6 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Okra","estimatedROI":"110%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Tomato","estimatedROI":"90%","growingPeriod":"3-4 months","initialInvestment":"7000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Cucumber","estimatedROI":"80%","growingPeriod":"3-4 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":82},{"crop":"Bitter Gourd","estimatedROI":"100%","growingPeriod":"4-5 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.97,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:24:54.349] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062454633}
+[01:25:46.582] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain consistent soil moisture levels and ensure proper fertilization for optimal growth, consider applying a balanced fertilizer with a ratio of 10-10-10 NPK","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Increase soil moisture levels through irrigation and consider applying a cotton-specific fertilizer with a ratio of 20-10-10 NPK to promote healthy growth and mitigate heat stress","score":60,"status":"Moderate"}],"location":{"lat":22.285769705327453,"lon":73.36333974432188},"reccomandCrops":[{"crop":"Chili","estimatedROI":"120%","growingPeriod":"4-6 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Okra","estimatedROI":"110%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Tomato","estimatedROI":"90%","growingPeriod":"3-4 months","initialInvestment":"7000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Cucumber","estimatedROI":"80%","growingPeriod":"3-4 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":82},{"crop":"Bitter Gourd","estimatedROI":"100%","growingPeriod":"4-5 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.97,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:25:46.583] Browser LOG     [2;38;2;124;124;124m%s[0m ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain consistent soil moisture levels and ensure proper fertilization for optimal growth, consider applying a balanced fertilizer with a ratio of 10-10-10 NPK","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Increase soil moisture levels through irrigation and consider applying a cotton-specific fertilizer with a ratio of 20-10-10 NPK to promote healthy growth and mitigate heat stress","score":60,"status":"Moderate"}],"location":{"lat":22.285769705327453,"lon":73.36333974432188},"reccomandCrops":[{"crop":"Chili","estimatedROI":"120%","growingPeriod":"4-6 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Okra","estimatedROI":"110%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Tomato","estimatedROI":"90%","growingPeriod":"3-4 months","initialInvestment":"7000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Cucumber","estimatedROI":"80%","growingPeriod":"3-4 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":82},{"crop":"Bitter Gourd","estimatedROI":"100%","growingPeriod":"4-5 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.97,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:25:46.583] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062506846}
+[01:25:47.374] Server  LOG     ⚠️ Using fallback prop data
+[01:25:48.663] Browser LOG     ⚠️ Using fallback prop data
+[01:25:48.663] Browser LOG     [2;38;2;124;124;124m%s[0m ⚠️ Using fallback prop data
+[01:25:48.663] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:25:48.663] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard/6943f86474c614e8d59e5165","route":"/dashboard/[id]"}
+[01:25:48.663] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard/[id]","o":"http://localhost:3000/dashboard/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062508919}
+[01:25:51.153] Browser LOG     ✅ API Response received: {"farmerName":"Ramesh","fullResponse":{"data":{"farmer":"Ramesh","guidance":[{"crop":"Sugarcane","messages":"[Array]","recommendation":"Maintain current soil moisture levels and ensure adequate fertilization for optimal growth, consider applying organic matter to improve soil structure","score":80,"status":"Good"},{"crop":"Cotton","messages":"[Array]","recommendation":"Monitor soil moisture levels closely and consider irrigation to prevent water stress, apply mulch or other soil warming techniques to improve soil temperature for healthy cotton development","score":70,"status":"Moderate"}],"location":{"lat":22.285769705327453,"lon":73.36333974432188},"reccomandCrops":[{"crop":"Tomato","estimatedROI":"200%","growingPeriod":"3-4 months","initialInvestment":"8000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":92},{"crop":"Chili Pepper","estimatedROI":"180%","growingPeriod":"4-6 months","initialInvestment":"7000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":89},{"crop":"Okra","estimatedROI":"120%","growingPeriod":"3-4 months","initialInvestment":"6000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":85},{"crop":"Cucumber","estimatedROI":"220%","growingPeriod":"3-4 months","initialInvestment":"9000 INR","profitPotential":"High","reasons":"[Array]","suitabilityScore":90},{"crop":"Bottle Gourd","estimatedROI":"150%","growingPeriod":"4-6 months","initialInvestment":"5000 INR","profitPotential":"Medium","reasons":"[Array]","suitabilityScore":88}],"soil":{"moisture":0.10000000149011612,"temperature":9.034500122070312,"texture":"Loamy"},"weather":{"conditions":"clear sky","humidity":34,"temperature":28.97,"wind":2.06}},"message":"fetch success...","success":true},"guidanceCount":2,"hasData":true,"recommendedCropsCount":5,"soilData":true,"weatherData":true}
+[01:25:53.339] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062513624}
+[01:26:57.093] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:26:57.093] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:26:57.093] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062577344}
+[01:31:38.226] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:31:38.235] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:31:38.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062858453}
+[01:33:54.241] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:33:54.241] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:33:54.241] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766062994490}
+[01:34:18.097] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:34:18.112] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:34:18.112] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766063018318}
+[01:51:33.779] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:51:33.779] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:51:33.779] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064054028}
+[01:53:43.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:53:43.465] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:53:43.465] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064183700}
+[01:55:32.239] Server  LOG      ✓ Compiled in 81ms
+[01:55:32.620] Browser ERROR   uncaughtError: TypeError: mandiResults.map.m is not a function
+[01:55:33.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:55:33.417] Server  LOG      ✓ Compiled in 14ms
+[01:55:35.624] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:55:35.624] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:55:35.624] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064295521}
+[01:55:37.643] Browser ERROR   uncaughtError: TypeError: mandiResults.map.map is not a function
+[01:55:40.784] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:55:40.785] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:55:40.785] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064301025}
+[01:55:41.413] Browser ERROR   uncaughtError: TypeError: mandiResults.map.map is not a function
+[01:55:47.015] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:55:47.086] Server  LOG      ✓ Compiled in 16ms
+[01:55:49.624] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:55:49.624] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:55:49.624] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064308891}
+[01:56:31.096] Server  LOG      ✓ Compiled in 45ms
+[01:56:31.619] Browser ERROR   ./app/market/[id]/page.tsx:28:9
+Parsing ecmascript source code failed
+  26 |
+  27 |   const { farm, mandiResults, harvestTips } = data.data
+> 28 |   const ma
+     |         ^^
+  29 |
+  30 |   return (
+  31 |     <div className="space-y-6">
+
+'const' declarations must be initialized
 
 Import traces:
   Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
+    ./app/market/[id]/page.tsx [Client Component Browser]
+    ./app/market/[id]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:11:26.510] Server  ERROR    ⨯ ReferenceError: imp is not defined
-[00:11:28.440] Browser ERROR   uncaughtError: ReferenceError: imp is not defined
-[00:11:30.763] Server  LOG      ✓ Compiled in 36ms
-[00:11:31.418] Browser ERROR   ./app/page.tsx:12:1
+    ./app/market/[id]/page.tsx [Client Component SSR]
+    ./app/market/[id]/page.tsx [Server Component]
+[01:56:32.619] Browser ERROR   ./app/market/[id]/page.tsx:28:9
 Parsing ecmascript source code failed
-  10 | import 
-  11 |
-> 12 | export default function HomePage() {
-     | ^^^^^^
-  13 |   const [currentStep, setCurrentStep] = useState<"setup" | "plan" | "guidance" | "pest" | "market">("setup")
-  14 |   const [farmData, setFarmData] = useState<any>(null)
-  15 |   const [selectedPlan, setSelectedPlan] = useState<any>(null)
+  26 |
+  27 |   const { farm, mandiResults, harvestTips } = data.data
+> 28 |   const m
+     |         ^
+  29 |
+  30 |   return (
+  31 |     <div className="space-y-6">
 
-Expected 'from', got 'export'
+'const' declarations must be initialized
 
 Import traces:
   Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
+    ./app/market/[id]/page.tsx [Client Component Browser]
+    ./app/market/[id]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:11:40.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:11:40.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:11:40.147] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:11:41.418] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:41.418] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:11:41.418] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045569677}
-[00:12:12.650] Server  LOG      ✓ Compiled in 21ms
-[00:12:13.418] Browser ERROR   ./app/page.tsx:26:5
+    ./app/market/[id]/page.tsx [Client Component SSR]
+    ./app/market/[id]/page.tsx [Server Component]
+[01:56:36.622] Browser ERROR   ./app/market/[id]/page.tsx:28:9
 Parsing ecmascript source code failed
-  24 |   <img 
-  25 |     src={}
-> 26 |     alt="icon" 
-     |     ^^^
-  27 |     className="w-6 h-6 object-contain"
-  28 |   />
-  29 | </div>
+  26 |
+  27 |   const { farm, mandiResults, harvestTips } = data.data
+> 28 |   const mandi
+     |         ^^^^^
+  29 |
+  30 |   return (
+  31 |     <div className="space-y-6">
 
-Expected '</', got 'alt'
+'const' declarations must be initialized
 
 Import traces:
   Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
+    ./app/market/[id]/page.tsx [Client Component Browser]
+    ./app/market/[id]/page.tsx [Server Component]
 
   Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[00:12:43.776] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:12:43.776] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:12:43.776] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045632311}
-[00:14:32.535] Server  LOG      ✓ Compiled in 43ms
-[00:14:41.648] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:41.648] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:41.648] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045750126}
-[00:15:21.244] Server  LOG      ✓ Compiled in 69ms
-[00:15:24.033] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:24.033] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:15:24.033] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045792547}
-[00:15:28.642] Server  LOG      ✓ Compiled in 12ms
-[00:15:35.411] Server  LOG      ✓ Compiled in 20ms
-[00:15:37.909] Server  LOG      ✓ Compiled in 16ms
-[00:15:41.009] Server  LOG      ✓ Compiled in 18ms
-[00:15:50.369] Server  LOG      ✓ Compiled in 19ms
-[00:15:54.253] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:54.253] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:15:54.253] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045822770}
-[00:16:00.947] Server  LOG      ✓ Compiled in 49ms
-[00:16:03.877] Server  LOG      ✓ Compiled in 67ms
-[00:16:08.019] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:08.020] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:08.020] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045836553}
-[00:16:11.825] Server  LOG      ✓ Compiled in 48ms
-[00:16:17.590] Server  LOG      ✓ Compiled in 61ms
-[00:16:19.958] Server  LOG      ✓ Compiled in 21ms
-[00:16:21.329] Server  LOG      ✓ Compiled in 15ms
-[00:16:24.733] Server  LOG      ✓ Compiled in 186ms
-[00:16:26.319] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:26.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:26.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045854847}
-[00:17:31.801] Server  LOG      ✓ Compiled in 49ms
-[00:17:34.603] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:34.603] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:17:34.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045923126}
-[00:17:45.362] Server  LOG      ✓ Compiled in 43ms
-[00:17:49.677] Server  LOG      ✓ Compiled in 20ms
-[00:17:52.062] Server  LOG      ✓ Compiled in 16ms
-[00:17:53.918] Server  LOG      ✓ Compiled in 33ms
-[00:18:01.245] Server  LOG      ✓ Compiled in 31ms
-[00:18:03.662] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:03.662] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:03.662] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045952188}
-[00:18:12.524] Server  LOG      ✓ Compiled in 51ms
-[00:18:14.844] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:14.844] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:14.844] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045963371}
-[00:18:21.092] Server  LOG      ✓ Compiled in 19ms
-[00:18:29.155] Server  LOG      ✓ Compiled in 22ms
-[00:18:38.213] Server  LOG      ✓ Compiled in 34ms
-[00:18:45.016] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:45.016] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:45.016] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765045993551}
-[00:18:56.519] Server  LOG      ✓ Compiled in 46ms
-[00:19:00.601] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:00.601] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:00.601] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046009138}
-[00:19:11.673] Server  LOG      ✓ Compiled in 32ms
-[00:19:17.330] Server  LOG      ✓ Compiled in 19ms
-[00:19:19.179] Server  LOG      ✓ Compiled in 18ms
-[00:19:28.985] Server  LOG      ✓ Compiled in 19ms
-[00:19:32.810] Server  LOG      ✓ Compiled in 19ms
-[00:19:36.192] Server  LOG      ✓ Compiled in 17ms
-[00:19:38.150] Server  LOG      ✓ Compiled in 31ms
-[00:19:41.768] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:41.768] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:41.768] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046050286}
-[00:19:48.527] Server  LOG      ✓ Compiled in 51ms
-[00:20:03.554] Server  LOG      ✓ Compiled in 41ms
-[00:20:07.056] Server  LOG      ✓ Compiled in 29ms
-[00:20:10.509] Server  LOG      ✓ Compiled in 39ms
-[00:20:13.702] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:13.702] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:13.702] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046082215}
-[00:20:17.753] Server  LOG      ✓ Compiled in 26ms
-[00:20:21.269] Server  LOG      ✓ Compiled in 16ms
-[00:20:25.012] Server  LOG      ✓ Compiled in 15ms
-[00:20:31.667] Server  LOG      ✓ Compiled in 17ms
-[00:20:36.085] Server  LOG      ✓ Compiled in 18ms
-[00:20:39.408] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:39.408] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:39.408] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046107908}
-[00:20:45.706] Server  LOG      ✓ Compiled in 42ms
-[00:20:49.763] Server  LOG      ✓ Compiled in 26ms
-[00:23:30.646] Server  LOG      ✓ Compiled in 33ms
-[00:23:34.167] Server  LOG      ✓ Compiled in 19ms
-[00:23:38.371] Server  LOG      ✓ Compiled in 21ms
-[00:23:46.000] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:23:46.000] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:23:46.001] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765046294562}
-[00:39:44.422] Server  LOG      ✓ Compiled in 48ms
-[00:39:45.555] Server  LOG      ✓ Compiled in 13ms
-[00:40:00.728] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:40:00.728] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:40:00.728] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047269260}
-[00:43:31.477] Server  LOG      ✓ Compiled in 138ms
-[00:43:54.233] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:43:54.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:43:54.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765047502771}
+    ./app/market/[id]/page.tsx [Client Component SSR]
+    ./app/market/[id]/page.tsx [Server Component]
+[01:56:38.569] Server  LOG      ✓ Compiled in 22ms
+[01:56:39.619] Browser ERROR   ./app/market/[id]/page.tsx:30:3
+Parsing ecmascript source code failed
+  28 |   const mandiResults =
+  29 |
+> 30 |   return (
+     |   ^^^^^^
+  31 |     <div className="space-y-6">
+  32 |       {/* Header */}
+  33 |       <div className="space-y-2">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/market/[id]/page.tsx [Client Component Browser]
+    ./app/market/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/market/[id]/page.tsx [Client Component SSR]
+    ./app/market/[id]/page.tsx [Server Component]
+[01:56:46.620] Browser ERROR   uncaughtError: ReferenceError: m is not defined
+[01:56:47.303] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:56:47.374] Server  LOG      ✓ Compiled in 20ms
+[01:56:49.626] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:56:49.626] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:56:49.626] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064369529}
+[01:57:00.085] Server  LOG      ✓ Compiled in 18ms
+[01:57:00.621] Browser ERROR   uncaughtError: ReferenceError: ma is not defined
+[01:57:01.287] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:57:01.373] Server  LOG      ✓ Compiled in 11ms
+[01:57:03.130] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:57:03.130] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:57:03.132] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064383312}
+[01:57:17.544] Server  LOG      ✓ Compiled in 29ms
+[01:57:18.619] Browser LOG     
+[01:57:18.619] Browser LOG     
+[01:57:18.619] Browser ERROR   uncaughtError: ReferenceError: mandidata is not defined
+[01:57:21.277] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:57:21.370] Server  LOG      ✓ Compiled in 17ms
+[01:57:23.620] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:57:23.620] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[01:57:23.620] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766064403425}
+[01:57:26.382] Server  LOG      ✓ Compiled in 20ms
+[02:02:03.982] Server  LOG      ✓ Compiled in 37ms
+[02:02:14.220] Server  LOG      ✓ Compiled in 26ms
+[04:25:35.825] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:25:35.825] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/market/6943f86474c614e8d59e5165","route":"/market/[id]"}
+[04:25:35.825] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/market/6943f86474c614e8d59e5165 color: rgb(120, 120, 120) color: inherit {"dp":"/market/[id]","o":"http://localhost:3000/market/6943f86474c614e8d59e5165","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766073295899}

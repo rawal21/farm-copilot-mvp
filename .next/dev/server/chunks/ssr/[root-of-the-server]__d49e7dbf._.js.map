@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/dikshitrawal/Desktop/v0-farm-copilot-mvp/app/login/page.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function Login() {\n  return (\n    <div>page</div>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBAAI;;;;;;AAET"}}]
+}
